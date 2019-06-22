@@ -404,7 +404,6 @@ a.iconfont.icon-weixin{
 }
 .title:hover::before{
     width: 80px;
-
 }
 .title::before{
     content: '';

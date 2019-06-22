@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background: #E9EAED;
+    font-family: 宋体;
+    /*color: white;*/
+    /*line-height: 1.5;*/
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+.headerBox{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+.headerBox h1{
+    height: 100%;
+    float: left;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 60px;
+    margin-right: 110px;
+    color: white;
+}
+.headerBox .nav{
+    height: 100%;
+    float: left;
+}
+.nav li{
+    float: left;
+    margin-left: 30px;
+    line-height: 60px;
+}
+.nav li a:hover{
+    color: cyan;
+}
+.headerBox .search{
+    height: 100%;
+    float: right;
+    line-height: 60px;
+    margin-left: 50px;
+}
+.title{
+    width: 1160px;
+    margin: 20px  auto;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.title > span{
+    width: 100%;
+    border-bottom: 1px solid #e4e3e3;
+    display: block;
+    padding-bottom: 10px;
+}
+.title > span:hover::before{
+    width: 70px;
+}
+.title > span::before{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 46px;
+    transition: all 0.3s;
+}
+.title h3{
+    font-size: 16px;
+    line-height: 1.5;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.a{
+    opacity: 0.7;
+}
+.title  p{
+    display: block;
+    font-size: 16px;
+    line-height: 48px;
+    clear: both;
+}
+.title textarea{
+    width: 100%;
+    height: 188px;
+    resize: none;
+}
+.title input{
+    /*height: 48px;*/
+}
+.submit{
+    width: 67px;
+    height: 30px;
+    float: right;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
+}
+.comment{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px  10px;
+    margin: 10px 0;
+}
+.comment i{
+    display: inline-block;
+    /*width: 50px;*/
+    /*height: 50px;*/
+    float: left;
+    overflow: hidden;
+}
+.comment img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.comment > p{;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 24px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.comment > p:nth-child(3){
+    font-size: 16px;
+    line-height: 1.5;
+    height: 24px;
+    display: inline-block;
+    float: bottom;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+.comment span{
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #999999;
+    margin-right: 10px;
+}
+.hf{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.hf  > p:first-child{
+    color: #ff0000;
+    display: block;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.hf >  p{
+    display: block;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    float: left;
+}
+.h{
+    border: #dedddd 1px dashed ;
+}
+.return-top{
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background-color: #1C2327;
+}
+.return-top a{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return-top i {
+    font-size: 40px;
+}
+footer{
+    background: #373d41;
+    /*height: 191px;*/
+    width: 100%;
+    border-top: #00C1DE 10px solid;
+    padding: 30px 0;
+    color: #73777a;
+    font-size: 14px;
+    overflow: hidden;
+}
+.box{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.wxbox{
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+.wxbox li{
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+.wxbox img{
+    width: 120px;
+    height: 120px;
+    border: 0;
+    display: block;
+}
+.endnav p{
+    margin-bottom: 19px;
+}
+.endnav > p > a:hover{
+    color: cyan;
+}

@@ -1,15 +1,15 @@
 
 window.onload=function () {
-    let home = document.getElementById('home')
+    let home = document.getElementById('home');
     home.onmouseenter = function () {
         home.style.color = 'cyan';
-    }
+    };
     home.onmouseleave = function () {
         home.style.color = 'white'
-    }
+    };
 
-    let firstList = document.getElementsByClassName('firstList')
-    let list = firstList[0].getElementsByTagName('li')
+    let firstList = document.getElementsByClassName('firstList');
+    let list = firstList[0].getElementsByTagName('li');
     for (let i = 0; i < list.length; i++) {
         list[i].onmouseover = function () {
             for (let j = 0; j < list.length; j++) {
@@ -19,9 +19,9 @@ window.onload=function () {
         }
     }
     //使文字显示出来
-    let tablelist = document.getElementsByClassName('tablelist')
+    let tablelist = document.getElementsByClassName('tablelist');
     console.log(tablelist);
-    let li = tablelist[0].getElementsByTagName('li')
+    let li = tablelist[0].getElementsByTagName('li');
     for (let i = 0; i < li.length; i++) {
         li[i].onmouseover = function () {
             for (let j = 0; j < list.length; j++) {
@@ -43,14 +43,14 @@ window.onload=function () {
     //
     // })
     //四个按钮
-    let xuanzebut = document.getElementsByClassName('xuanzebutton')
-    let bannerPointer = xuanzebut[0].getElementsByTagName('li')
+    let xuanzebut = document.getElementsByClassName('xuanzebutton');
+    let bannerPointer = xuanzebut[0].getElementsByTagName('li');
 //    轮播图
 //     let index = 0;
     let current =0,next = 0;
-    let rightBth = document.querySelector('.rightBth')
-    let firstimg = document.querySelectorAll('.firstimg > li')
-    let leftBth = document.querySelector('.leftBth')
+    let rightBth = document.querySelector('.rightBth');
+    let firstimg = document.querySelectorAll('.firstimg > li');
+    let leftBth = document.querySelector('.leftBth');
     let w = firstimg[0].offsetWidth;
     let flag = true;
     rightBth.onclick = function(){
